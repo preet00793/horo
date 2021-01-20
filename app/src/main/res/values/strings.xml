@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Horo</string>
+    <string name="horoscope">Rashi</string>
+    <string name="title">Horoscope</string>
+    <string name="copy">Copyright &#169; Ayraa Inforrmatics Inc. 2020</string>
+    <string name="home">Go Home</string>
+    <string name="mesha">Mesha</string>
+    <string name="vrishabha">Vrishabha</string>
+    <string name="mithuna">Mithuna</string>
+    <string name="karka">Karka</string>
+    <string name="simha">Simha</string>
+    <string name="kanya">Kanya</string>
+    <string name="tula">Tula</string>
+    <string name="vrishchik">Vrishchik</string>
+    <string name="dhanu">Dhanu</string>
+    <string name="makara">Makara</string>
+    <string name="kumbha">Kumbha</string>
+    <string name="meena">Meena</string>
+
+    <string name="mesha_text"><![CDATA[
+        <h1>Mesha</h1>A
+        <strong>Lord: </strong>Mars <br>
+        <strong>Element: </strong>Fire <br>
+        <strong>Color: </strong>Red <br>
+        <strong>Lucky Numbers: </strong>1, 8 <br>
+        <p align="justify">
+            Mesha Rashi people prefer to work under directions and guidance from others. They are temperamental in nature. They are ambitious, courageous and vigilant for self-respect. They shape their own destiny by dint of struggle and hard work.
+        </p>
+    ]]></string>
+
+
+    <string name="vrishabha_text"><![CDATA[
+        <h1>Vrishabha</h1>
+        <strong>Lord: </strong>Venus <br>
+        <strong>Element: </strong>Earth <br>
+        <strong>Color: </strong>White <br>
+        <strong>Lucky Numbers: </strong>2, 7 <br>
+        <p align="justify">
+           Taurus, is the second astrological sign in the present zodiac. It spans from 30° to 60° of the zodiac. This sign belongs to the Earth element or triplicity, and has a feminine or negative polarity, as well as a fixed modality, quality, or quadruplicity. It is a Venus-ruled sign like Libra
+         </p>
+    ]]></string>
+    <string name="dhanu_text"><![CDATA[
+        <h1>Mesha</h1>
+        <strong>Lord: </strong>Mars <br>
+        <strong>Element: </strong>Fire <br>
+        <strong>Color: </strong>Red <br>
+        <strong>Lucky Numbers: </strong>1, 8 <br>
+        <p align="justify">
+            Dhanu Rashi is the ninth moon sign in Vedic Astrology whose equivalent is Sagittarius. The ruler of Dhanus Rasi is Jupiter or Guru. It is symbolized by the Archer and element Fire. The lucky color for this Vedic moon sign is WHITE, ORANGE, GREEN.
+         </p>
+    ]]></string>
+    <string name="title_activity_deatails">Deatails</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+
+</resources>

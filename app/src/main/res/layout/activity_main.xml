@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="30dp"
+            android:fontFamily="cursive"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:letterSpacing="0.3"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageButton
+            android:id="@+id/mesha"
+            android:background="@drawable/mesha"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/mesha"
+            android:onClick="mesha"/>
+
+        <ImageButton
+            android:id="@+id/vrishabha"
+            android:background="@drawable/vrishabha"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/vrishabha"
+            android:onClick="vrishabha"/>
+
+        <ImageButton
+            android:id="@+id/mithuna"
+            android:background="@drawable/mithuna"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/mithuna"
+            android:onClick="mithuna"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageButton
+            android:id="@+id/karka"
+            android:background="@drawable/karka"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/karka"
+            android:onClick="karka"/>
+
+        <ImageButton
+            android:id="@+id/simha"
+            android:background="@drawable/simha"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/simha"
+            android:onClick="simha"/>
+
+        <ImageButton
+            android:id="@+id/kanya"
+            android:background="@drawable/kanya"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/kanya"
+            android:onClick="kanya"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageButton
+            android:id="@+id/tula"
+            android:background="@drawable/tula"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/tula"
+            android:onClick="tula"/>
+
+        <ImageButton
+            android:id="@+id/vrishchik"
+            android:background="@drawable/vrishchik"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/vrishchik"
+            android:onClick="vrishchik"/>
+
+        <ImageButton
+            android:id="@+id/dhanu"
+            android:background="@drawable/dhanu"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/dhanu"
+            android:onClick="dhanu"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageButton
+            android:id="@+id/makara"
+            android:background="@drawable/makara"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/makara"
+            android:onClick="makara"/>
+
+        <ImageButton
+            android:id="@+id/kumbha"
+            android:background="@drawable/kumbha"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/kumbha"
+            android:onClick="kumbha"/>
+
+        <ImageButton
+            android:id="@+id/meena"
+            android:background="@drawable/meena"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/meena"
+            android:onClick="meena"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
